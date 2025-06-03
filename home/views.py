@@ -5,3 +5,5 @@ from django.http import HttpResponse
 def credits(request):
     content = "Nicky\nKate"
     return HttpResponse(content, content_type="text/plain")
+
+
